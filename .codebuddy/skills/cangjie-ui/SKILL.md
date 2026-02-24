@@ -25,31 +25,27 @@ metadata:
 
 ### 文档目录结构
 
-该仓库的目录结构与本项目一致：
+该仓库的目录结构如下：
 
 ```
 cangjie-corpus/
-├── 01_编程语言基础/      - 基础语法文档
+├── 01_编程语言基础/      - 基础语法文档以及编程手册
 ├── 02_标准库API/        - 标准库 API
 ├── 03_扩展库stdx/       - 扩展库
-├── 04_编程手册/         - 编程手册
-├── 05_OpenHarmony开发/   - 鸿蒙应用开发
+├── 04_OpenHarmony开发/   - 鸿蒙应用开发
 │   ├── application-dev/  - 应用开发
 │   └── arkui/            - UI 框架
 │       ├── 范式/         - 范式相关
 │       ├── 渲染控制/     - 渲染控制
 │       └── 状态管理/     - 状态管理
-└── 06_工具与生态/        - 工具与生态
+└── 05_工具与生态/        - 工具与生态
 ```
 
 ### 常用查询示例
 
-- 查询基础语法：`query-docs` 搜索 "cangjie syntax"
-- 查询标准库：`query-docs` 搜索 "cangjie stdlib"
-- 查询 ArkUI 组件：`query-docs` 搜索 "cangjie ArkUI component"
-- 查询状态管理：`query-docs` 搜索 "cangjie state management"
-- 查询布局容器：`query-docs` 搜索 "cangjie layout container"
-- 查询动画 API：`query-docs` 搜索 "cangjie animation"
+- 查询基础语法：`query-docs` 搜索 "01_编程语言基础" 目录下内容
+- 查询标准库：`query-docs` 搜索 "02_标准库API" 以及 "03_扩展库stdx" 目录下内容
+- 查询 ArkUI 组件：`query-docs` 搜索 "05_OpenHarmony开发/arkui"目录下内容
 
 ---
 
