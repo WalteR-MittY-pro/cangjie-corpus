@@ -1,5 +1,11 @@
 # 栅格布局（GridRow/GridCol）
 
+<!--Del-->
+> **说明：**
+>
+> 当前为Beta阶段。
+<!--DelEnd-->
+
 ## 概述
 
 栅格布局是一种通用的辅助定位工具，对移动设备的界面设计有较好的借鉴作用。主要优势包括：
@@ -589,7 +595,7 @@ GridCol组件作为GridRow组件的子组件，通过给GridCol传参或者设�
     }
     ```
 
-    ![Grid13](figures/Grid13.PNG)
+    ![Grid13](figures/Grid13.png)
 
 ## 栅格组件的嵌套使用
 

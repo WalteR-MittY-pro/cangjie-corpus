@@ -1,5 +1,11 @@
 # 不依赖UI组件的全局自定义弹出框（openCustomDialog）
 
+<!--Del-->
+> **说明：**
+>
+> 当前为Beta阶段。
+<!--DelEnd-->
+
 由于[CustomDialogController](../reference/arkui-cj/cj-dialog-customdialog.md#class-customdialogcontroller)在使用上存在诸多限制，不支持动态创建也不支持动态刷新。
 
 > **说明：**

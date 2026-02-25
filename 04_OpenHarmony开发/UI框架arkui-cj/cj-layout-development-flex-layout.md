@@ -1,5 +1,11 @@
 # 弹性布局（Flex）
 
+<!--Del-->
+> **说明：**
+>
+> 当前为Beta阶段。
+<!--DelEnd-->
+
 ## 概述
 
 弹性布局（[Flex](../reference/arkui-cj/cj-row-column-stack-flex.md)）提供更加有效的方式对容器中的子元素进行排列、对齐和分配剩余空间。常用于页面头部导航栏的均匀分布、页面框架的搭建、多行数据的排列等。
@@ -780,7 +786,7 @@ class EntryView {
 
 ### 内容对齐
 
-可以通过[alignContent](../reference/arkui-cj/cj-row-column-stack-flex.md#var-aligncontent)参数设置子元素各行在交叉轴剩余空间内的对齐方式，只在多行的Flex布局中生效，可选值有：
+可以通过[alignContent](../reference/arkui-cj/cj-row-column-stack-flex.md#initflexdirection-flexwrap-flexalign-itemalign-flexalign----unit)参数设置子元素各行在交叉轴剩余空间内的对齐方式，只在多行的Flex布局中生效，可选值有：
 
 - FlexAlign.Start：子元素各行与交叉轴起点对齐。
 

@@ -1,5 +1,11 @@
 # 实现属性动画
 
+<!--Del-->
+> **说明：**
+>
+> 当前为Beta阶段。
+<!--DelEnd-->
+
 通过可动画属性改变引起UI上产生的连续视觉效果，即为属性动画。属性动画是最基础易懂的动画，ArkUI提供两种属性动画接口[animateTo](../reference/arkui-cj/cj-apis-uicontext-uicontext.md#func-animatetoanimateparam-voidcallback)、[animation](../reference/arkui-cj/cj-animation-animation.md)驱动组件属性按照动画曲线等动画参数进行连续的变化，产生属性动画。
 
 |属性动画接口|作用域|原理|使用场景|

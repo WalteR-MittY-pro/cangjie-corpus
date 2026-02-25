@@ -1,5 +1,11 @@
 # 组件导航（Navigation）（推荐）
 
+<!--Del-->
+> **说明：**
+>
+> 当前为Beta阶段。
+<!--DelEnd-->
+
 组件导航（Navigation）主要用于实现页面间以及组件内部的页面跳转，支持在不同组件间传递跳转参数，提供灵活的跳转栈操作，从而更便捷地实现对不同页面的访问和复用。本文将从组件导航（Navigation）的路由操作、子页面管理以及跳转动效等几个方面进行详细介绍。
 
 [Navigation](../reference/arkui-cj/cj-navigation-switching-navigation.md)是路由导航的根视图容器，一般作为页面（@Entry）的根容器。Navigation组件适用于模块内的路由切换，通过组件级路由能力实现更加自然流畅的转场体验，并提供多种标题栏样式来呈现更好的标题和内容联动效果。一次开发，多端部署场景下，Navigation组件能够自动适配窗口显示大小，在窗口较大的场景下自动切换分栏展示效果。
@@ -56,7 +62,7 @@ Navigation默认提供了页面切换的转场动画，通过页面栈操作时�
 
 ### 共享元素转场
 
-NavDestination之间切换时可以通过[geometryTransition](../reference/arkui-cj/cj-animation-geometrytransition.md#func-geometryTransition)实现共享元素转场。配置了共享元素转场的页面同时需要关闭系统默认的转场动画。
+NavDestination之间切换时可以通过[geometryTransition](../reference/arkui-cj/cj-animation-geometrytransition.md#func-geometrytransitionstring-bool)实现共享元素转场。配置了共享元素转场的页面同时需要关闭系统默认的转场动画。
 
 1. 为需要实现共享元素转场的组件添加geometryTransition属性，id参数必须在两个NavDestination之间保持一致。
 
